@@ -1,0 +1,10 @@
+/* 
+.child{
+    height:50%;
+    background-color: red;
+} */
+
+.layout{
+    margin-top: 100px;
+    margin-bottom: auto;
+}

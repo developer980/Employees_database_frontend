@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@900&display=swap');
+
+nav{
+    height:fit-content;
+    background-color: #43c5c1;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    height:10%;
+    z-index: 2;
+}
+
+nav > div > .a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight:600;
+    font-size: 25px;
+    transition: all 0.25s;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+nav> div > .a:hover{
+    color:rgb(187, 255, 244);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.current-page{
+    color:rgb(187, 255, 244);
+    font-size: 30px;
+    text-decoration: none;
+    width: 300px;
+    /* border: 1px solid black; */
+}
+.current-page:hover{
+    color:rgb(187, 255, 244);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo{
+    font-family: 'Sarpanch', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo:hover{
+    font-family: 'Sarpanch', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+.link-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media(max-width:1200px){
+    .link-list{
+        display: flex;
+        flex-direction: column;
+    }
+}

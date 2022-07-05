@@ -1,0 +1,51 @@
+.nice-form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:600px;
+    border:0.2px solid rgb(161, 161, 161);
+    padding:30px;
+    border-radius: 5px;
+    /* margin-top: 15%; */
+}
+
+.home-input{
+    border-radius: 5px;
+    border:0.2px solid rgb(161, 161, 161);
+    padding:10px;
+    margin: auto;
+    width:60%;
+}
+
+label{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(87, 87, 87);
+}
+
+.add-user{
+    border:none;
+    border-radius: 5px;
+    background-color: #3683e9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    margin-top: 15px;
+    transition: all 0.25s;
+}
+.add-user:hover{
+    background-color: #2966b6;
+}
+
+.newDiv{
+    background-color: #2966b6;
+    width:100px;
+    display:block;
+}
